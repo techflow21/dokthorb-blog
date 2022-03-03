@@ -1,10 +1,13 @@
 {% extends 'base.html' %} {% block content %}
 <body>
-  <h1>Welcome to DokthorB-Blog</h1>
+  <center><h1 class="homeText-header">Welcome to DokthorB-Blog</h1></center>
   <br />
-  <img src="{{ url_for('static', filename='images/house2.jpg')}}" width="500" />
+  <img src="{{ url_for('static', filename='images/house2.jpg')}}" width="96%" />
   <br />
   <br />
-  <p>I am delighted to welcome you to DokthorB-Blog</p>
+  <p class="homeText">
+    I am delighted to welcome you to DokthorB-Blog Web application built with
+    Bootstrap, Python Flask framework, MySQL Database
+  </p>
 </body>
 {% endblock %}
